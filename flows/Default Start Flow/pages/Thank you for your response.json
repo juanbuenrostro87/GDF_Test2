@@ -1,0 +1,18 @@
+{
+  "name": "89c6f1b1-4861-4362-8c28-b606c5e2e8db",
+  "displayName": "Thank you for your response",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you for your response. Have a nice day!" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

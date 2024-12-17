@@ -1,0 +1,64 @@
+{
+  "name": "b97cdc11-29a7-4a4e-a8f1-d3a8f949da19",
+  "displayName": "Question",
+  "transitionRoutes": [ {
+    "intent": "Question",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "html": "Replace text here with the correct response. Ensure to close \u003cimg src='https://botflo.com/wp-content/uploads/2018/06/numeric-150x150.png'/\u003e\u003cp\u003eparagraph\u003c/p\u003e or \u003cb\u003ebold\u003c/b\u003e, \u003ci\u003eitalic\u003c/i\u003e, \u003cu\u003eunderline\u003c/u\u003e or hyperlink \u003ca target='_blank' href='https://www.google.com'\u003eGoogle\u003c/a\u003e.",
+            "type": "html"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "html": "\u003ctable\u003e\u003ccaption\u003eFree Coding Resources\u003c/caption\u003e\u003ctr\u003e\u003cth\u003eYoutube Channels\u003c/th\u003e\u003cth\u003eMobile Apps\u003c/th\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eFreecode Camp\u003c/td\u003e\u003ctd\u003eEnki\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eAcademind\u003c/td\u003e\u003ctd\u003eProgramming Hero\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eThe Coding Train\u003c/td\u003e\u003ctd\u003eSolo learn\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e",
+            "type": "html"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Previous Page",
+    "name": "24b1d8a8-8276-46f4-a970-225065a8e106"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b012aa7f-7143-49c7-84e7-e304c9d2ddaf"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "57dd3854-3c9e-4bbf-ac60-18760229ec1b"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "a72d2c3d-f921-4f07-a45a-bd457fb66ff6",
+    "languageCode": "en"
+  } ]
+}

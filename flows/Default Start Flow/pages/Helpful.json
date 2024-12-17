@@ -1,0 +1,68 @@
+{
+  "name": "2940cf4b-b445-42b8-ad12-9560eaa19dfb",
+  "displayName": "Helpful",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "subtitle": "This is the subtitle field - font is smaller than the title.",
+          "text": "\u003cbr\u003e\u003cbr\u003eIf you enter text here, \u003cbr\u003e\u003cbr\u003eyou will get a drop down to maximize it. \u003ca href='https://google.com/' target='_blank'\u003eGoogle\u003c/a\u003e enter '_self instead of '_blank to open on the same page. You can list items\u003cul\u003e\u003cli\u003eOne\u003c/li\u003e\u003cli\u003eTwo. \u003cbr\u003e\u003cbr\u003eYou can even use line\n  breaks and emoji! 👍👎",
+          "title": "This is the title field and will always display in bold.",
+          "type": "accordion"
+        } ], [ {
+          "options": [ {
+            "text": "👍 Helpful"
+          }, {
+            "text": "👎 Not helpful"
+          }, {
+            "link": "https://www.google.com",
+            "rawUrl": "https://cdn.wccftech.com/wp-content/uploads/2018/02/Google.jpg",
+            "text": "Google"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "helpful",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "html": "From 1 to 5, 5 being the highest. What would you rate your experience?",
+            "subtitle": "",
+            "type": "html"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetFlow": "Thank you response",
+    "name": "ce6ed08b-603c-4d16-b6b9-fa04ef8529cd"
+  }, {
+    "intent": "not_helpful",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry, I was not helpful. Would you like to leave a comment? Yes/No" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "bf39b29e-617e-428a-bb7e-9191ccc41a30"
+  } ]
+}

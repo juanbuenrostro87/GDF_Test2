@@ -1,0 +1,31 @@
+{
+  "displayName": "1st CX Bot",
+  "defaultLanguageCode": "en",
+  "supportedLanguageCodes": [ "es" ],
+  "timeZone": "America/New_York",
+  "projectNumber": 200968161619,
+  "speechToTextSettings": {
+  
+  },
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
+}
